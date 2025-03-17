@@ -79,6 +79,11 @@ html {
  */
 body {
 	margin: 0;
+	font-family: "Manrope", sans-serif;
+}
+
+header, footer {
+	font-family: "lumina-normal", sans-serif;
 }
 
 /**
