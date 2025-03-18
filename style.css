@@ -77,13 +77,18 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-body {
+body, p {
 	margin: 0;
-	font-family: "Manrope", sans-serif;
+	font-family: "manrope", sans-serif;
 }
 
 header, footer {
 	font-family: "lumina-normal", sans-serif;
+}
+
+.test-font {
+	font-family: "lumina-heading", sans-serif;
+	font-family: "manrope", sans-serif;
 }
 
 /**

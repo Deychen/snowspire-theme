@@ -26,6 +26,7 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'snowspire' ); ?></a>
 
 	<header id="masthead" class="site-header">
+		<div class="test-font">Hej</div>
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
