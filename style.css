@@ -1,3 +1,24 @@
+.site-header {
+	background-color: #000;
+	background-image: url(./pictures/184840635.png);
+	width: 1561px;
+	height: 462px;
+	flex-shrink: 0;
+	aspect-ratio: 1564.09/1040.00;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+.logo {
+	margin: 14px 0 0 16px;
+}
+
+.menu {
+	margin: 14px 16px 0 0;
+}
+
 /*!
 Theme Name: snowspire
 Theme URI: http://underscores.me/
@@ -495,8 +516,8 @@ ol {
 	list-style: decimal;
 }
 
-li > ul,
-li > ol {
+li>ul,
+li>ol {
 	margin-bottom: 0;
 	margin-left: 1.5em;
 }
@@ -673,8 +694,8 @@ textarea {
 	top: 0;
 }
 
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
+.main-navigation ul ul li:hover>ul,
+.main-navigation ul ul li.focus>ul {
 	display: block;
 	left: auto;
 }
@@ -683,8 +704,8 @@ textarea {
 	width: 200px;
 }
 
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
+.main-navigation ul li:hover>ul,
+.main-navigation ul li.focus>ul {
 	left: auto;
 }
 
@@ -715,10 +736,8 @@ textarea {
 }
 
 .site-main .comment-navigation,
-.site-main
-.posts-navigation,
-.site-main
-.post-navigation {
+.site-main .posts-navigation,
+.site-main .post-navigation {
 	margin: 0 0 1.5em;
 }
 
