@@ -176,3 +176,11 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+// function snowspire_logo() {
+// 	if (@me) {
+
+// 	} else if () {
+	
+// 	}
+// }
