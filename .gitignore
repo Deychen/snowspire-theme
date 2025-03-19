@@ -1,0 +1,14 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore WordPress-generated files (logs, cache)
+wp-content/uploads/
+wp-content/cache/
+wp-content/debug.log
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
