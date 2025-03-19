@@ -37,6 +37,14 @@
 
 			</div>
 
+			<div class="logo-mobile">
+
+				<a href="<?php echo esc_url(home_url('home')); ?>">
+					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/pictures/Snowspire-mobile.png"
+						alt="Snowspire">
+				</a>
+
+			</div>
 
 			<div class="menu">
 				<nav id="site-navigation" class="main-navigation">

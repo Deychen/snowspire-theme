@@ -8,16 +8,42 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	
+
 }
 
 .logo {
 	margin: 14px 0 0 16px;
+	display: block;
+}
+
+.logo-mobile {
+	margin: 14px 0 0 16px;
+	display: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+
+	.logo {
+		margin: 14px 0 0 16px;
+		display: none;
+	}
+
+	.logo-mobile {
+		margin: 14px 0 0 16px;
+		display: block;
+	}
+
 }
 
 .menu {
 	margin: 14px 16px 0 0;
 }
+
+.menu-item {
+	padding: 5px;
+}
+
 
 /*!
 Theme Name: snowspire
