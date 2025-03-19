@@ -1,8 +1,9 @@
 .site-header {
 	background-color: #000;
 	background-image: url(./pictures/184840635.png);
-	width: 1561px;
+	width: 100%;
 	height: 462px;
+	/* background-size: ; */
 	flex-shrink: 0;
 	aspect-ratio: 1564.09/1040.00;
 	display: flex;
@@ -14,6 +15,12 @@
 .logo {
 	margin: 14px 0 0 16px;
 	display: block;
+	transition: transform 0.8s ease-in-out;
+}
+
+.logo :hover {
+	cursor: pointer;
+	transform: scale(1.02);
 }
 
 .logo-mobile {
@@ -23,6 +30,7 @@
 
 @media only screen and (max-width: 480px) {
 
+	
 
 	.logo {
 		margin: 14px 0 0 16px;
