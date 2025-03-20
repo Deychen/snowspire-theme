@@ -636,17 +636,10 @@ ol {
   list-style: decimal;
 }
 
-<<<<<<< HEAD
-li>ul,
-li>ol {
-	margin-bottom: 0;
-	margin-left: 1.5em;
-=======
 li > ul,
 li > ol {
   margin-bottom: 0;
   margin-left: 1.5em;
->>>>>>> Teo
 }
 
 dt {
@@ -821,32 +814,19 @@ textarea {
   top: 0;
 }
 
-<<<<<<< HEAD
-.main-navigation ul ul li:hover>ul,
-.main-navigation ul ul li.focus>ul {
-	display: block;
-	left: auto;
-=======
 .main-navigation ul ul li:hover > ul,
 .main-navigation ul ul li.focus > ul {
   display: block;
   left: auto;
->>>>>>> Teo
 }
 
 .main-navigation ul ul a {
   width: 200px;
 }
 
-<<<<<<< HEAD
-.main-navigation ul li:hover>ul,
-.main-navigation ul li.focus>ul {
-	left: auto;
-=======
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
   left: auto;
->>>>>>> Teo
 }
 
 .main-navigation li {
@@ -877,14 +857,10 @@ textarea {
 .site-main .comment-navigation,
 .site-main .posts-navigation,
 .site-main .post-navigation {
-<<<<<<< HEAD
-	margin: 0 0 1.5em;
-=======
   margin: 0 0 1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
->>>>>>> Teo
 }
 
 .comment-navigation .nav-links,
@@ -1136,7 +1112,7 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 #page {
