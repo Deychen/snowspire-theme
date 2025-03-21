@@ -48,8 +48,13 @@
 
 }
 
+
+
 .menu {
 	margin: 14px 16px 0 0;
+}
+.menu ul {
+	gap: 10px;
 }
 
 .menu-item {
@@ -823,13 +828,13 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	/* border: 1px solid; */
+	border: none;
 	/* border-color: none; */
 	/* border-radius: 3px; */
 	/* background: green; */
 	background-image: url(./pictures/menu.svg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: auto;
 	background-position: center;
 	/* color: rgba(0, 0, 0, 0.8); */
 	/* line-height: 1; */
@@ -843,7 +848,7 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	/* border-color: #ccc #bbb #aaa; */
+	border-color: #ccc #bbb #aaa;
 }
 
 button:active,
@@ -919,6 +924,8 @@ textarea {
 .main-navigation {
 	display: block;
 	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .main-navigation ul {
