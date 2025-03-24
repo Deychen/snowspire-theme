@@ -25,8 +25,7 @@
 	<?php wp_body_open(); ?>
 		<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e('Skip to content', 'snowspire'); ?></a>
 
-		<header id="masthead" class="site-header">
-
+	<header id="masthead" class="site-header">
 			<div class="logo">
 
 				<a href="<?php echo esc_url(home_url('home')); ?>">
