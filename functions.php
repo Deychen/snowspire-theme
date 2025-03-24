@@ -11,6 +11,15 @@ function snowspire_custom_fonts() {
 add_action('wp_enqueue_scripts', 'snowspire_custom_fonts');
 
 /**
+ * custom fonts
+ */
+function snowspire_custom_fonts() {
+	wp_enqueue_style("snowspire-manrope", "https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap", array(), null);
+	wp_enqueue_style("snowspire-lumina", get_template_directory_uri() . '/assets/fonts/fonts.css', array(), '1.0.0');
+
+}
+add_action('wp_enqueue_scripts', 'snowspire_custom_fonts');
+/**
  * snowspire functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
