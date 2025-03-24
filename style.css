@@ -52,10 +52,9 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		/* background-color: rgba(0, 0, 0, 0.4); */
 		position: absolute;
-		top: 100px;
-		right: 16px;
+		top: 80px;
+		right: 0px;
 
 	}
 
@@ -63,15 +62,16 @@
 		background-color: rgba(0, 0, 0, 0.4);
 	}
 
+	header li a {
+		font-size: 1.5rem;
+		margin: 6px 0 6px 0;
+	}
+
 }
 
 
 .menu {
 	margin: 14px 16px 0 0;
-}
-
-.menu ul {
-	gap: 10px;
 }
 
 .menu-item {
@@ -82,21 +82,31 @@ header li {
 	color: #fff !important;
 	text-decoration: underline;
 	font-family: "lumina-footer", sans-serif;
-	font-size: 30px;
+	font-size: 1.8rem;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
 	text-align: center;
+	margin-right: 1rem;
 }
 
 header li a {
 	color: #fff !important;
-
 }
 
 header li a:hover {
 	color: rgba(255, 255, 255, 0.6) !important;
 
+}
+
+
+
+/* SLIDESHOW????? */
+.slide-show {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 
