@@ -14,7 +14,7 @@
 
 <footer class="site-footer">
 	<div class="logo-container">
-		<img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/Snowspire 3.png'); ?>" alt="Snowspire Logo">
+		<img id="footer-logo-img" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/Snowspire 3.png'); ?>" alt="Snowspire Logo">
 	</div>
 
 	<div class="footer-content">
