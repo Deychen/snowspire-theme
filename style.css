@@ -28,7 +28,7 @@
 .logo {
   margin: 14px 0 0 16px;
   display: block;
-  width: 100%;
+  width: 350px;
   transition: transform 0.8s ease-in-out;
 }
 
@@ -64,35 +64,12 @@
     right: 16px;
   }
 
-
-	.logo {
-		display: none;
-	}
-
-	.logo-mobile {
-		margin: 10px 0 0 10px;
-		display: block;
-	}
-
-	.menu-menu-1-container {
-		display: flex;
-		height: 240px;
-		width: 140px;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		position: absolute;
-		top: 80px;
-		right: 0px;
-
-	}
-
 	header li {
 		background-color: rgba(0, 0, 0, 0.4);
 	}
 
 	header li a {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		margin: 6px 0 6px 0;
 	}
 
@@ -115,7 +92,7 @@ header li {
 	color: #fff !important;
 	text-decoration: underline;
 	font-family: "lumina-footer", sans-serif;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
