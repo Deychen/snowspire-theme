@@ -17,6 +17,10 @@
 	padding: 1rem;
 }
 
+.product header .entry-title {
+	display: block;
+}
+
 .entry-title {
 	display: none;
 }
