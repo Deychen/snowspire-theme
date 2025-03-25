@@ -13,6 +13,14 @@
   justify-content: space-between;
 }
 
+.booking-text {
+	padding: 1rem;
+}
+
+.entry-title {
+	display: none;
+}
+
 .logo {
   margin: 14px 0 0 16px;
   display: block;
@@ -1092,7 +1100,7 @@ textarea {
 }
 
 .site-main {
-  padding: 0 2rem 0 2rem;
+	padding: 0 3rem 0 3rem;
 }
 
 .site-main .comment-navigation,
